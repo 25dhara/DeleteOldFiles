@@ -1,0 +1,7 @@
+
+navigate directory to the folder 
+
+->.\DeleteOldFiles.ps1 -ExecutionPolicy Bypass
+
+you can change created date 
+-> $(Get-Item c.txt).creationtime=$(Get-Date "11/12/2022")
